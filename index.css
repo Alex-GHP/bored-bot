@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Gabarito', sans-serif;
+    background-color: #0c0032;
+    color: whitesmoke;
+    font-size: 32px;
+}
+
+.btn {
+    border: none;
+    border-radius: 0.2em;
+    background-color: whitesmoke;
+    padding: 1em 2em;
+    font-family: 'Gabarito', sans-serif;
+    font-weight: bold;
+    font-size: 0.5em;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px yellowgreen;
+}
+
+.btn:active {
+    background-color: yellowgreen;
+    color: white;
+}
+
